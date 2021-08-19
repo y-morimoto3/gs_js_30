@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+header {
+    text-align: center;
+    background-color: black;
+    color: cornsilk;
+    height: 60px;
+    position: relative;
+    
+}
+
+header p {
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+
+}
+
+img {
+    width: 180px;
+    height: auto;
+}
+
+#toba {
+    background-color: antiquewhite;
+    border: 35px solid olive;
+    width: auto;
+
+}
+
+.ke {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.hito {
+    width: 100%;
+    border: rgb(99, 97, 97);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#perica_o {
+    font-size: 30px;
+   
+}
+
+#perica_k {
+    font-size: 30px;
+   
+}
+
+.k {
+    text-align: right;
+}
+
+.p_flex {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+
+}
+
+.p_flex img {
+    width: 80px;
+    height: auto;
+}
+
+.kaiji {
+    align-items: center;
+}
+
+
+.perica {
+    text-align: center;
+
+}
+
+
+
+#yakumei {
+    display: block;
+    font-size: 30px;
+    
+    text-align: center;
+}
+#yakumei_2 {
+    display: block;
+    font-size: 30px;
+    
+    text-align: center;
+}
+
+＃gazousyuu {
+    width: 100px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+/* フォーム */
+
+form {
+    margin: 250px auto;
+}
+
+
+#kakekin {
+    width: 250px;
+    height: 50px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#kaishi {
+    width: 100px;
+    height: 100px;
+}
+
+.sukima {
+    width: 100px;
+}
+
+
+#syoubu {
+    width: 100px;
+    height: 100px;
+}
+
+#hajime {
+    width: 150px;
+}
+
+
+form label {
+    display: none;
+}
+
+form input {
+    display: block;
+    width: 200px;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+form button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+
+}
+    
+.perica_jibun {
+    text-align: center;
+}
+
+.gazou {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+
+/* 画像表示 */
+.bigbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.boxinner img {
+    width: 100px;
+    height: auto;
+}
+
+.nextbox {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* footer */
+
+footer {
+    position: relative;
+    width: auto;
+    height: 40px;
+    background-color: rgb(54, 53, 53);
+}
+
+footer p {
+    text-align: center;
+    color: blanchedalmond;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
